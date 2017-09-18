@@ -4,7 +4,7 @@ export class RadioPlayer {
 	promise:any;
 
 	constructor() {
-		this.url = "http://akalmultimedia.net:8000/GDNSLDH";
+		this.url = "http://70.38.73.27:8005/stream";
 		this.stream = new Audio(this.url);
 	};
 
